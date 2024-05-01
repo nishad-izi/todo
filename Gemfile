@@ -10,6 +10,8 @@ gem 'bigdecimal', '1.3.5'
 
 gem 'listen'
 
+gem 'puma', '~> 4.3'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 
