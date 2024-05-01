@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20131220123456) do
 
-  create_table "tasks", force: true do |t|
+  create_table "tasks", force: :cascade do |t|
     t.string   "title"
     t.text     "note"
     t.date     "completed"
@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20131220123456) do
     t.integer  "user_id"
   end
 
-  create_table "users", force: true do |t|
+  create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
