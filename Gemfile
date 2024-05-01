@@ -6,7 +6,7 @@ gem 'rails', '~> 7.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4', '>= 1.4.2'
 
-gem 'bigdecimal', '1.3.5'
+# gem 'bigdecimal'
 
 gem 'listen'
 
